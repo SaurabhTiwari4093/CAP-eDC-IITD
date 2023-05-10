@@ -1,6 +1,6 @@
 // Base URL
 // const base_url = window.location.href;
-const base_url = 'https://cap-edc-iitd.azurewebsites.net/';
+const base_url = 'https://cap.edciitd.com/';
 
 // Register form
 const registerForm = document.getElementById('registerForm');
