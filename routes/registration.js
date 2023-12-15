@@ -95,17 +95,12 @@ router.post("/", async (req, res) => {
       registration: newRegistration,
       status: 201,
     });
-    await new Promise((resolve, reject) => {
-      // send mail
-      transporter.sendMail(mailOptions, function (error, info) {
-        if (error) {
-          console.log(error);
-          reject(err);
-        } else {
-          console.log("Email sent: " + info.response);
-          resolve(info.response);
-        }
-      });
+    transporter.sendMail(mailOptions, function (error, info) {
+      if (error) {
+        console.log(error);
+      } else {
+        console.log("Email sent: " + info.response);
+      }
     });
   } catch (err) {
     res.status(400).json({
