@@ -1,5 +1,5 @@
 // Base URL
-const base_url = 'https://cap-edc-iitd-backend.vercel.app/';
+const base_url = 'https://cap-edc-iitd.onrender.com/';
 
 // Register form
 const registerForm = document.getElementById('registerForm');
