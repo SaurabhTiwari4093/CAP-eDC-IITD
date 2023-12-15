@@ -10,8 +10,8 @@ var transporter = nodemailer.createTransport(smtpTransport({
     service: 'gmail',
     host: 'smtp.gmail.com',
     auth: {
-        user: 'cap.edciitd@gmail.com',
-        pass: 'mygggtxqyglfsbvb'
+        user: 'saurabhtiwari4093@gmail.com',
+        pass: 'chihquflhkntihcm'
     }
 }));
 
@@ -48,7 +48,7 @@ router.post('/', async (req, res) => {
     })
 
     var mailOptions = {
-        from: 'cap.edciitd@gmail.com',
+        from: 'saurabhtiwari4093@gmail.com',
         to: req.body.email,
         subject: 'Successfully registered for CAP eDC IIT Delhi',
         html: `
