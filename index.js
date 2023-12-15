@@ -14,7 +14,9 @@ db.once("open", () => console.log("Connected to Database"));
 app.use(cors());
 app.use(express.json());
 
-app.use(express.static("client"));
+app.get('/',(req,res)=>{
+    res.send('Cap eDC Backend')
+})
 
 const registrationRouter = require("./routes/registration");
 app.use("/api/registration", registrationRouter);

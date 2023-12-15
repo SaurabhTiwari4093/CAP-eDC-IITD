@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SaurabhTiwari4093/heroku-nodejs.git"
+    "url": "git+https://github.com/SaurabhTiwari4093/CAP-eDC-IITD.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SaurabhTiwari4093/heroku-nodejs/issues"
+    "url": "https://github.com/SaurabhTiwari4093/CAP-eDC-IITD/issues"
   },
-  "homepage": "https://github.com/SaurabhTiwari4093/heroku-nodejs#readme",
+  "homepage": "https://github.com/SaurabhTiwari4093/CAP-eDC-IITD#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
