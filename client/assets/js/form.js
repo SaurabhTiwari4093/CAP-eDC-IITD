@@ -1,5 +1,5 @@
 // Base URL
-const base_url = 'https://cap-edc-iitd.onrender.com/';
+const base_url = 'https://cap-edc-iitd.saurabh-tiwari.tech/';
 
 // Register form
 const registerForm = document.getElementById('registerForm');
